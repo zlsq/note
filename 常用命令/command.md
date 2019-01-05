@@ -28,11 +28,11 @@ head -n -10 test.log #查看尾十行日志
 ```
 3. cat，tac是倒序查看
 ```zsh
-cat test.log #查看整个日志文件
+cat test.log #查看整个日志文件
 cat -n test.log #查看整个日志文件并从1开始对日志编号
 cat -b test.log #同-n，但不对空行编号
-cat -s test.log #遇到两行以上的空白行，就代换为一行空白行,不输出多行空行
-cat -E test.log #在每行结尾处加上$
+cat -s test.log #遇到两行以上的空白行，就代换为一行空白行,不输出多行空行
+cat -E test.log #在每行结尾处加上$
 ```
 4. more:类似于cat，但more能逐页阅读
 ```zsh
