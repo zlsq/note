@@ -1,5 +1,22 @@
 # 常用命令记录
 ## Mac命令
+---
+更多命令参考[awesome-macos-command-line](https://github.com/herrbischoff/awesome-macos-command-line)
+1. 查看文件路径，并拷贝到剪切板
+``` zsh
+realpath test | tee pbcopy # 查看当前目录的test文件的绝对路径 并拷贝到剪切板
+```
+2. 重启dock
+```mac
+killall dock
+```
+3. 删除迅雷无用组件
+```shell
+cd /Applications/Thunder.app/Contents/PlugIns
+
+rm -rf featuredpage.* advertising.* xlbrowser.*
+rm -rf activitycenter.* xlplayer.* xiazaibao.* iOSThunder.* searchtask.* lixianspace.* softmanager.*
+```
 
 ## 常用工具命令
 1. 删除maven所有更新失败的文件：

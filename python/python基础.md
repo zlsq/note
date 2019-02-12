@@ -17,8 +17,8 @@
     %d 整数， %s 字符串， %f 浮点数， %x 十六进制整数，%s将所有类型转换为string
     ```'zzz{0},zzz{1}'.format('a','b')```
 13. 有序列表：
-    list[] append('') insert(i,'') pop(i)
-    tuple() t(1)表示1，t(1,)表示一个tuple里面有个元素1
+    list[] append('') insert(i,'') pop(i) <br/>
+    tuple() t(1)表示1，t(1,)表示一个tuple里面有个元素1 <br/>
     tuple 初始化后无法修改
 14. 判断：
 ```python
